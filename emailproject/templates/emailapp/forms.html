@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>
+        STUDENT REGISTRATION
+    </title>
+</head>
+<body>
+
+<form  method="post">
+<h1>STUDENT REGISTRATION FORM</h1>
+    {{form.as_p}}
+    {%  csrf_token %}
+  <input type="submit"  value="submit">
+</form>
+</body>
+</html>
